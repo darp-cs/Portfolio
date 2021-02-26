@@ -1,4 +1,4 @@
-import './app.css';
+import classes from './app.module.css';
 import Home from './components/Home/Home';
 import Projects from './components/Projects/Projects';
 import Resume from './components/Resume/Resume';
@@ -13,7 +13,7 @@ function app() {
 
     <Router>
 
-        <div className="app">
+        <div className={classes.app}>
         <Navbar/>
         <Switch>
         <Route exact path="/" component={Home} />
