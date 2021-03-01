@@ -7,19 +7,19 @@ const Home = () => {
       <div className={classes.title}>
         <h1>
           <p>Hi,</p>
-          <p>I am Diego Rodriguez</p>
-          <p>Software developer</p>
+          <p>My name is, Diego Rodriguez</p>
+          <p>and I am a Software developer</p>
         </h1>
         <Link to="about">
           <button>More Info</button>
         </Link>
       </div>
       <div className={classes.person}>
-          {/* come back and add picture */}
-        {/* <img
-          src={`${process.env.PUBLIC_URL}/mo-logo.png`}
-          alt="person picture"
-        /> */}
+         
+        <img
+          src="https://raw.githubusercontent.com/darp-cs/Images/main/portfolio-img.jpg?raw=true"
+          alt="Headshot"
+        />
       </div>
     </div>
   );

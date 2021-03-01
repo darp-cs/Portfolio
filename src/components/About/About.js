@@ -5,12 +5,13 @@ const About = () => {
         <div className={classes.about}>
             <h1>Bio</h1>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+           In my academic life I'm currently attending the University of North Carolina at Charlotte working on both my bachelors and masters in computer science, with a  concentration in AI, Gaming, and Robotics.I have a passion for computer science as a whole with a particular interest in AI, specifically deep learning. I strive to improve and refine my skills every day and enjoy giving back to the computer science community. 
             </p>
-            <br/>
+            <br></br>
             <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+            In my professional life, I'm currently a part of road to hire as a coding apprentice learning and developing web applications using programming languages such as JavaScript, MySQL along with markup languages. I have done several implementations using the React framework and SASS. In addition I've also had the opportunity to study AWS cloud computing.
             </p>
+
         </div>
     )
 }

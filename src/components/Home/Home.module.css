@@ -10,7 +10,7 @@
     width: 100%;
     font-size: 18px;
     text-align: center;
-    font-family: "Righteous", cursive;
+    font-family: "Fjalla One", sans-serif;
   }
   
   .home .title p {
@@ -26,8 +26,8 @@
     color: #ffffff;
     padding: 10px 15px;
     border-radius: 999px;
-    background-color: #3f71f4;
-    font-family: "Righteous", cursive;
+    background-color: #0298f5;
+    font-family: "Fjalla One", sans-serif;
   }
   
   .home .person {

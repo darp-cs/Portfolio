@@ -1,0 +1,49 @@
+.projectContainer{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items:center;
+    background-color: #0298f5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 2em;
+    grid-row-gap: 0;
+}
+
+.projectsGrid{
+    display:grid;
+    grid-row-gap: 50px;
+}
+
+.projectButton{
+    display:inline-block;
+    width: 15%;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    background-color: rgba(0, 0, 0, .8);
+    font-weight: 700;
+}
+
+.projectButton:hover{
+    background-color:rgba(255, 255, 255, .9);
+    transition: all 0.5s ease-in-out;
+}
+
+.projectInfo{
+    
+}
+
+.projectImg{
+    width:50%;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, .9);
+}
+
+a:hover{
+    color:  rgba(0,0,0,.8)
+}
