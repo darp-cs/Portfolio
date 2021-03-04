@@ -31,8 +31,8 @@
     transition: all 0.5s ease-in-out;
 }
 
-.projectInfo{
-    
+.infotext{
+    font-size: 20px;
 }
 
 .projectImg{
