@@ -7,6 +7,8 @@ const projects = () =>{
 
 
                 <h1>JavaScript</h1>
+
+                {/* 1 */}
                 <div className = {classes.projectContainer}>
                 <img className= {classes.projectImg} src = "https://raw.githubusercontent.com/darp-cs/Logo_Images/main/hope-hacks-img.png?raw=true" alt= "Hope Hackathon preview"/>
                 <div>
@@ -16,6 +18,8 @@ const projects = () =>{
                 <button className = {classes.projectButton}><a href ="https://github.com/darp-cs/Hope-Hackathon.git" target="_blank">Source Code</a></button>
                 </div>
 
+
+                {/* 2 */}
                 <div className = {classes.projectContainer}>
                 <img className= {classes.projectImg} src = "https://raw.githubusercontent.com/darp-cs/Logo_Images/main/burgerbuilder-img.png?raw=true" alt= "Burger builder preview"/>
                 <div>
@@ -25,6 +29,7 @@ const projects = () =>{
                 <button className = {classes.projectButton}><a href ="https://github.com/darp-cs/Week-18" target="_blank">Source Code</a></button>
                 </div>
 
+                {/* 3 */}
                 <div className = {classes.projectContainer}>
                 <img className= {classes.projectImg} src = "https://raw.githubusercontent.com/darp-cs/Logo_Images/main/ecommerce-img.png?raw=true" alt= "Ecommerce Preview"/>
                 <div>
@@ -32,6 +37,78 @@ const projects = () =>{
                         <p>This project focused on improving upon my previous ecommerce project that was only done with html and css and instead doing it with react this time around. This application will allow the user to browse through products and within the products page filter based on category and price.</p>
                 </div>
                 <button className = {classes.projectButton}><a href ="https://github.com/darp-cs/ecommerce-anipop" target="_blank">Source Code</a></button>
+                </div>
+
+                {/* 4 */}
+                <div className = {classes.projectContainer}>
+                <img className= {classes.projectImg} src = "https://raw.githubusercontent.com/darp-cs/Images/main/reservation-app.png?raw=true" alt= "Hope Hackathon preview"/>
+                <div>
+                        <h2 className= {classes.projectInfo}>Restaurant Reservation App</h2>
+                        <p>This project focused on bringing attention to a problem within our society, in this case the environment, and ways that we can prevent it. This project uses javascript and express for the back end requests.</p>
+                </div>
+                <button className = {classes.projectButton}><a href ="https://github.com/darp-cs/ReservationApp" target="_blank">Source Code</a></button>
+                </div>
+
+                {/* 5 */}
+                <div className = {classes.projectContainer}>
+                <img className= {classes.projectImg} src = "https://raw.githubusercontent.com/darp-cs/Images/main/guessing-app.png?raw=true" alt= "Hope Hackathon preview"/>
+                <div>
+                        <h2 className= {classes.projectInfo}>Guessing Game</h2>
+                        <p>This project focused on bringing attention to a problem within our society, in this case the environment, and ways that we can prevent it. This project uses javascript and express for the back end requests.</p>
+                </div>
+                <button className = {classes.projectButton}><a href ="https://github.com/darp-cs/GuessingGame" target="_blank">Source Code</a></button>
+                </div>
+
+                {/* 6 */}
+                <div className = {classes.projectContainer}>
+                <img className= {classes.projectImg} src = "https://raw.githubusercontent.com/darp-cs/Images/main/pokemon-app.png?raw=true" alt= "Hope Hackathon preview"/>
+                <div>
+                        <h2 className= {classes.projectInfo}>Pokemon Inquirer App</h2>
+                        <p>This project focused on bringing attention to a problem within our society, in this case the environment, and ways that we can prevent it. This project uses javascript and express for the back end requests.</p>
+                </div>
+                <button className = {classes.projectButton}><a href ="https://github.com/darp-cs/PokemonInquirerApp" target="_blank">Source Code</a></button>
+                </div>
+
+                {/* 7 */}
+                <div className = {classes.projectContainer}>
+                <img className= {classes.projectImg} src = "https://raw.githubusercontent.com/darp-cs/Images/main/Weather-app.png?raw=true" alt= "Hope Hackathon preview"/>
+                <div>
+                        <h2 className= {classes.projectInfo}>Weather App</h2>
+                        <p>This project focused on bringing attention to a problem within our society, in this case the environment, and ways that we can prevent it. This project uses javascript and express for the back end requests.</p>
+                </div>
+                <button className = {classes.projectButton}><a href ="https://github.com/darp-cs/WeatherApp" target="_blank">Source Code</a></button>
+                </div>
+
+
+                {/* 8 */}
+                <div className = {classes.projectContainer}>
+                <img className= {classes.projectImg} src = "https://raw.githubusercontent.com/darp-cs/Images/main/todo-app.png" alt= "Hope Hackathon preview"/>
+                <div>
+                        <h2 className= {classes.projectInfo}>To-Do List</h2>
+                        <p>This project focused on bringing attention to a problem within our society, in this case the environment, and ways that we can prevent it. This project uses javascript and express for the back end requests.</p>
+                </div>
+                <button className = {classes.projectButton}><a href ="https://github.com/darp-cs/ToDoApp" target="_blank">Source Code</a></button>
+                </div>
+
+                {/* 9 */}
+                <div className = {classes.projectContainer}>
+                <img className= {classes.projectImg} src = "https://raw.githubusercontent.com/darp-cs/Images/main/tictactoe.png?raw=true" alt= "Hope Hackathon preview"/>
+                <div>
+                        <h2 className= {classes.projectInfo}>TicTacToe</h2>
+                        <p>This project focused on bringing attention to a problem within our society, in this case the environment, and ways that we can prevent it. This project uses javascript and express for the back end requests.</p>
+                </div>
+                <button className = {classes.projectButton}><a href ="https://github.com/darp-cs/TicTacToe" target="_blank">Source Code</a></button>
+                </div>
+
+
+                {/* 10 */}
+                <div className = {classes.projectContainer}>
+                <img className= {classes.projectImg} src = "https://raw.githubusercontent.com/darp-cs/Images/main/friends-app.png?raw=true" alt= "Hope Hackathon preview"/>
+                <div>
+                        <h2 className= {classes.projectInfo}>Friends App</h2>
+                        <p>This project focused on bringing attention to a problem within our society, in this case the environment, and ways that we can prevent it. This project uses javascript and express for the back end requests.</p>
+                </div>
+                <button className = {classes.projectButton}><a href ="https://github.com/darp-cs/FriendsApp" target="_blank">Source Code</a></button>
                 </div>
 
                 <h1>Java</h1>
